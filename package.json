@@ -1,0 +1,32 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RESTful todoListApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1\"",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymohamadou/RESTfulAPITutorial.git"
+  },
+  "keywords": [
+    "RESTfull",
+    "API",
+    "Tutorial"
+  ],
+  "author": "Mohamadou Yacoubou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ymohamadou/RESTfulAPITutorial/issues"
+  },
+  "homepage": "https://github.com/ymohamadou/RESTfulAPITutorial#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongoose": "^4.9.0"
+  }
+}
